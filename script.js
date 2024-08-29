@@ -1,3 +1,4 @@
+
 const hamburger = document.querySelector('#hamburger');
 const navbar = document.querySelector('#navbar');
 // =========================================
@@ -17,6 +18,18 @@ const footer3 = document.querySelector('#footer3')
 const up3 = document.querySelector('#up3');
 const bungkus3 = document.querySelector("#bungkus3");
 // ==========================================
+// var Scrollbar = window.Scrollbar;
+// const options = {
+//     'damping' : 0.04,
+//     'alwaysShowTracks' : true 
+// }
+// Scrollbar.init(document.querySelector('body'), options)
+
+const scroller = new LocomotiveScroll({
+    el: document.querySelector("[data-scroll-container]"),
+    smooth: true,
+});
+
 
 hamburger.addEventListener('click', (e) => {
     hamburger.classList.toggle('hamburger-active');
@@ -76,16 +89,7 @@ tombol3.addEventListener('click', function () {
         });
 })
 
-// scrol fixed
-window.onscroll = function () {
-    const header = document.querySelector("#sectionTop");
-    const fixedNav = header.offsetTop;
-    if ( window.pageYOffset > fixedNav) {
-        header.classList.add('navbar-fixed');
-    } else {
-        header.classList.remove('navbar-fixed');
-    }
-}
+
 
 
 
