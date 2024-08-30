@@ -25,10 +25,6 @@ const bungkus3 = document.querySelector("#bungkus3");
 // }
 // Scrollbar.init(document.querySelector('body'), options)
 
-const scroller = new LocomotiveScroll({
-    el: document.querySelector("[data-scroll-container]"),
-    smooth: true,
-});
 
 
 hamburger.addEventListener('click', (e) => {
