@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- script -->
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,21 +15,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link href="./tailwind.css" rel="stylesheet">
-    <!-- script  -->
+    <link href="css/final.css" rel="stylesheet">
     <title>Coffe In.</title>
 
 </head>
 
-<body  class="bg-black">
-    <!-- navbar -->
+<body class="bg-black">
+
     <section id="sectionTop" class=" bg-opacity-90 w-full  z-[99] fixed mt-2">
         <div class="container ">
             <div class="w-full py-2 flex justify-between p-2 ">
-                <!-- logo -->
-                <h2 class="text-3xl text-white bebas-neue tracking-wider lg:w-full xl:text-4xl 2xl:text-[2.5rem]" >Coffe In.</h2>
-                <!-- navigasi bar -->
-                <nav id="navbar" class="hidden absolute  bg-white w-full top-12 left-0 lg:static lg:bg-transparent lg:flex lg:p-0 lg:m-0 lg:top-0 lg:justify-end lg:text-white z-[99] ">
+
+                <h2 class="text-3xl text-white bebas-neue tracking-wider lg:w-full xl:text-4xl 2xl:text-[2.5rem]">Coffe
+                    In.</h2>
+
+                <nav id="navbar"
+                    class="hidden absolute  bg-white w-full top-12 left-0 lg:static lg:bg-transparent lg:flex lg:p-0 lg:m-0 lg:top-0 lg:justify-end lg:text-white z-[99] ">
                     <ul class="poppins-medium text-sm py-1 lg:flex lg:p-0 lg:m-0 lg:poppins-regular ">
                         <li class="li-navbar lg:px-4">
                             <a href="#" class="a-navbar lg:putih">Home</a>
@@ -52,8 +52,8 @@
                         </li>
                     </ul>
                 </nav>
-                <!-- hamburger menu -->
-                <div  class="lg:hidden flex items-center mr-6 anim">
+
+                <div class="lg:hidden flex items-center mr-6 anim">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute">
                         <span class="hamburger-line transition duration-300 ease-in-out  origin-top-left"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out origin-top-right"></span>
@@ -63,35 +63,38 @@
             </div>
         </div>
     </section>
-    <!-- section Hero 1 -->
     <section>
         <div class="relative">
-            <!-- jdul start -->
+
             <h2
                 class=" absolute text-[4rem] z-20 text-[#fff] bebas-neue tengah opacity-85 xl:text-[5rem] 2xl:text-[10rem]">
                 Coffe in.</h2>
-            <!-- judul end -->
+
             <video autoplay loop muted class="top-0 bg-cover bg-no-repeat">
                 <source src="img/hero-section.mp4">
             </video>
         </div>
     </section>
-    <!-- section 2 -->
     <section id="story" class="overflow-hidden">
         <div class="container flex flex-wrap pt-8 px-5 xl:grid xl:grid-cols-3 ">
-            <!-- ------------------------WRAP 1 ----------------------------------------------------- -->
+
             <div class="my-8 flex flex-wrap relative xl:w-full">
                 <div class="w-1/2 xl:w-full ">
-                    <img  src="img/proses.jpg" alt="" class="w-full xl:hidden ">
-                    <img  src="img/coffeshop3.jpg" class="xl:w-full hidden xl:block">
+                    <img src="img/proses.jpg" alt="" class="w-full xl:hidden ">
+                    <img src="img/coffeshop3.jpg" class="xl:w-full hidden xl:block">
                 </div>
                 <div class="w-1/2 pl-4 xl:hidden">
-                    <div >
+                    <div>
                         <h2 class="text-sm  text-white poppins-medium md:text-base lg:text-xl">2019/2021</h2>
                         <p class="mr-4 text-xs w-full text-slate-300 md:text-sm ">Lorem ipsum dolor sit amet
                             consectetur adipisicing elit A reiciendis beatae quisquam obcaecati autem possimus eveniet
-                            excepturi facilis fugiat nulla nisi iusto Lorem ipsum<span class="hidden lg:block">dolor sit amet consectetur adipisicing elit Neque ratione sapiente atque ad debitis doloremque omni nemo tempore quo dicta iste aliquam totam praesentium adipisci. Deserunt doloremque soluta recusandae quia?Lorem ipsum, dolor sit amet consectetur adipisicing elit Architecto veniam necessitatibus expedita fuga facilis dolorem iste cum praesentium Iste similique incidunt recusandae adipisci.</span> </p>
-                        <!-- button -->
+                            excepturi facilis fugiat nulla nisi iusto Lorem ipsum<span class="hidden lg:block">dolor sit
+                                amet consectetur adipisicing elit Neque ratione sapiente atque ad debitis doloremque
+                                omni nemo tempore quo dicta iste aliquam totam praesentium adipisci. Deserunt doloremque
+                                soluta recusandae quia?Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                                Architecto veniam necessitatibus expedita fuga facilis dolorem iste cum praesentium Iste
+                                similique incidunt recusandae adipisci.</span> </p>
+
                         <button class="button mt-5 ">
                             <p class="button-text">Read More</p>
                             <p class="iconer"><svg height="24" width="24" viewBox="0 0 24 24"
@@ -103,9 +106,8 @@
                                 </svg></p>
                         </button>
                     </div>
-                    <!-- biji coffe -->
-                    <img src="img/bijicoffe.png" alt=""
-                        class="absolute left-0 -z-[20] top-0 lg:left-[25rem] ">
+
+                    <img src="img/bijicoffe.png" alt="" class="absolute left-0 -z-[20] top-0 lg:left-[25rem] ">
                 </div>
             </div>
             <!-- ------------------------------ WRAP 2 ----------------------------------------- -->
@@ -115,7 +117,12 @@
                         <h2 class="text-lg text-white poppins-medium md:text-base lg:text-xl">2021/2024</h2>
                         <p class="mr-4 text-xs w-full  text-slate-300 md:text-sm ">Lorem ipsum dolor sit amet
                             consectetur adipisicing elit A reiciendis beatae quisquam obcaecati autem possimus eveniet
-                            excepturi facilis fugiat nulla nisi iusto Lorem ipsum<span class="hidden lg:block">dolor sit amet consectetur adipisicing elit Consequuntur sed laudantium iure ipsam ut amet corrupti ducimus aut quaerat expedita eveniet quos nostrum accusantium provident? Fuga animi eligendi voluptatum explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus rem in quaerat quasi, autem tempore hic numquam fuga nostrum modi quia adipisci dolorum tenetur animi odit Nam repellat cumque libero?</span> </p>
+                            excepturi facilis fugiat nulla nisi iusto Lorem ipsum<span class="hidden lg:block">dolor sit
+                                amet consectetur adipisicing elit Consequuntur sed laudantium iure ipsam ut amet
+                                corrupti ducimus aut quaerat expedita eveniet quos nostrum accusantium provident? Fuga
+                                animi eligendi voluptatum explicabo Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit Accusamus rem in quaerat quasi, autem tempore hic numquam fuga nostrum modi quia
+                                adipisci dolorum tenetur animi odit Nam repellat cumque libero?</span> </p>
                         <!-- button -->
                         <button class="button mt-5">
                             <p class="button-text">Read More</p>
@@ -129,66 +136,75 @@
                         </button>
                     </div>
                     <!-- biji coffe -->
-                    <img  src="img/bijicoffe.png" alt="" class="absolute left-0 -z-[20] top-[15rem] ">
+                    <img src="img/bijicoffe.png" alt="" class="absolute left-0 -z-[20] top-[15rem] ">
                 </div>
-                <div  class="w-1/2 xl:w-full ">
-                    <img src="img/coffeshop2.jpg"  class="  xl:w-full xl:shadow-none *: ">
+                <div class="w-1/2 xl:w-full ">
+                    <img src="img/coffeshop2.jpg" class="  xl:w-full xl:shadow-none *: ">
                 </div>
             </div>
             <!-- ---------------------------- WRAP 3 ---------------------------- -->
             <div class=" my-8 w-full hidden xl:block ">
-                <img  src="img/coffeshop1.jpg" class="w-full h-full">
+                <img src="img/coffeshop1.jpg" class="w-full h-full">
             </div>
         </div>
     </section>
-    <!-- section 3 -->
+
     <section id="menu" class="border-b-[1px] border-primary py-12 2xl:border-none mt-5">
         <div class="container">
             <div class=" w-full px-5 md:px-12 lg:flex lg:flex-wrap lg:px-0">
                 <div class="w-full py-2 relative lg:w-1/2 lg:px-2 2xl:w-1/3">
                     <a href=" ">
                         <img src="img/menu1.jpg" class=" ">
-                        <h2 class="absolute  text-[3rem] bebas-neue text-white tengah  text-center w-full hover:text-primary">Appetizer
+                        <h2
+                            class="absolute  text-[3rem] bebas-neue text-white tengah  text-center w-full hover:text-primary">
+                            Appetizer
                         </h2>
                     </a>
                 </div>
                 <div class="w-full py-2 relative lg:w-1/2 lg:px-2 2xl:w-1/3 ">
                     <a href="">
                         <img src="img/menu4.jpg" class="lg:h-full ">
-                        <h2 class="absolute  text-[3rem] bebas-neue text-white tengah  text-center w-full hover:text-primary">Main Course
+                        <h2
+                            class="absolute  text-[3rem] bebas-neue text-white tengah  text-center w-full hover:text-primary">
+                            Main Course
                         </h2>
                     </a>
                 </div>
                 <div class="w-full py-2 relative lg:w-1/2 lg:px-2 2xl:w-1/3">
                     <a href="">
                         <img src="img/menu3.jpg" class=" ">
-                        <h2 class="absolute text-[3rem] bebas-neue text-white tengah text-center w-full hover:text-primary"> Hot Dessert
+                        <h2
+                            class="absolute text-[3rem] bebas-neue text-white tengah text-center w-full hover:text-primary">
+                            Hot Dessert
                         </h2>
                     </a>
                 </div>
                 <div class="w-full py-2 relative lg:w-1/2 lg:px-2 2xl:w-1/3 2xl:mx-auto">
                     <a href="">
                         <img src="img/menu2.jpg" class="lg:h-full ">
-                        <h2 class="absolute  text-[3rem] bebas-neue text-white tengah  text-center w-full hover:text-primary">Cold Dessert
+                        <h2
+                            class="absolute  text-[3rem] bebas-neue text-white tengah  text-center w-full hover:text-primary">
+                            Cold Dessert
                         </h2>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- section 4 -->
+
     <section id="news" class="pt-4 overflow-hidden relative">
         <div class="container px-10 ">
-            <h4 class="text-gray-300 poppins-regular-italic text-center md:text-lg lg:px-32 xl:text-xl 2xl:pb-20">"Dan <span
-                    class="text-primary font-bold 2xl:text-white ">kopi</span> tak pernah memilih siapa yang layak menikmatinya. Karena
+            <h4 class="text-gray-300 poppins-regular-italic text-center md:text-lg lg:px-32 xl:text-xl 2xl:pb-20">"Dan
+                <span class="text-primary font-bold 2xl:text-white ">kopi</span> tak pernah memilih siapa yang layak
+                menikmatinya. Karena
                 di hadapan kopi, kita semua sama."</h4>
             <div class="py-5">
-                <div  
+                <div
                     class="w-full h-[300px] bg-[url(img/display1.jpg)] bg-cover bg-no-repeat bg-center flex rounded-xl 2xl:w-1/2 2xl:mx-auto">
                 </div>
             </div>
             <div class="py-5">
-                <div 
+                <div
                     class="w-full h-[300px] bg-[url(img/display3.jpg)] bg-cover bg-no-repeat bg-center flex rounded-md  2xl:w-1/2 2xl:mx-auto">
                 </div>
             </div>
@@ -198,14 +214,15 @@
                 </div>
             </div>
 
-            <img  src="img/bijicoffe.png" class="absolute top-0 w-[550px] left-[10%]  hidden 2xl:block z-[-1]">
-            <img  src="img/bijicoffe.png" class="absolute top-[50%] w-[550px] left-[10%] hidden 2xl:block z-[-1] ">
-            <img  src="img/bijicoffe.png" class="absolute top-0 w-[550px] right-[10%]  hidden 2xl:block z-[-1] ">
-            <img  src="img/bijicoffe.png" class="absolute top-[50%] w-[550px] right-[10%]  hidden 2xl:block z-[-1] ">
+            <img src="img/bijicoffe.png" class="absolute top-0 w-[550px] left-[10%]  hidden 2xl:block z-[-1]">
+            <img src="img/bijicoffe.png" class="absolute top-[50%] w-[550px] left-[10%] hidden 2xl:block z-[-1] ">
+            <img src="img/bijicoffe.png" class="absolute top-0 w-[550px] right-[10%]  hidden 2xl:block z-[-1] ">
+            <img src="img/bijicoffe.png" class="absolute top-[50%] w-[550px] right-[10%]  hidden 2xl:block z-[-1] ">
         </div>
     </section>
-    <!-- section 5 -->
-    <section id="#" class="bg-gradient-to-b from-black to-primary h-[54rem] md:h-[60rem] pt-16 overflow-hidden xl:relative">
+
+    <section id="#"
+        class="bg-gradient-to-b from-black to-primary h-[54rem] md:h-[60rem] pt-16 overflow-hidden xl:relative">
         <div class="2xl:container">
             <div class="w-full relative md:px-10 2xl:static 2xl:flex 2xl:flex-wrap 2xl:p-0 2xl:m-0">
                 <div class="2xl:w-1/2 xl:py-5 xl:px-4">
@@ -231,7 +248,6 @@
             </div>
         </div>
     </section>
-    <!-- section 6 -->
     <section class=" pb-4 2xl:p-0 bg-gradient-to-b from-primary to-black ">
         <div>
             <div class="w-full xl:pt-5">
@@ -240,11 +256,9 @@
             </div>
         </div>
     </section>
-    <!-- footer type 1 -->
     <section id="contact" class="pb-4 lg:hidden">
         <div class="w-full">
             <di class="relative">
-                <!-- ================================================================================ -->
                 <div id="bungkus1" class=" w-full bg-black py-2 border-b border-gray-700">
                     <h2 class="text-sm poppins-light text-center w-full text-white ">COFFEIN.</h2>
                     <i id="tombolcoffe" data-feather="chevron-down" class="mx-auto text-white animate-bounce pt-2"></i>
@@ -266,7 +280,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- ============================================================================ -->
                 <div id="bungkus2" class=" w-full bg-black py-2 border-b border-gray-700">
                     <h2 class="text-sm  poppins-light text-center w-full text-white">INFO</h2>
                     <i id="tombol2" data-feather="chevron-down" class="mx-auto text-white animate-bounce pt-2"></i>
@@ -290,7 +303,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- ============================================================================== -->
+
                 <div id="bungkus3" class=" w-full bg-black py-2  border-b border-gray-700">
                     <h2 class="text-sm  poppins-light text-center w-full text-white ">LOCATION</h2>
                     <i id="tombol3" data-feather="chevron-down" class="mx-auto text-white animate-bounce pt-2"></i>
@@ -318,21 +331,25 @@
         </div>
         </div>
     </section>
-    <!-- footer type 2 -->
+
     <section class=" hidden lg:block border-b-[1px] border-gray-700 pb-8">
         <div class="container flex pt-10 px-12 2xl:p-0 2xl:flex 2xl:justify-center ">
-            <!-- ---------------------------------------------------------- -->
+
             <div class="text-white wrap1 2xl:flex 2xl:mx-28">
                 <div class=" poppins text-base 2xl:mx-4">
                     <h3 class="text-4xl poppins-semibold py-4">COFFEIN.</h3>
-                    <p class="text-sm py-1 flex items-center">Bali : Jalan Pulau Nusakambangan Bali<a href=""><i data-feather="map-pin" class=" text-white ml-2 w-[18px] hover:animate-bounce"></i></a></p>
+                    <p class="text-sm py-1 flex items-center">Bali : Jalan Pulau Nusakambangan Bali<a href=""><i
+                                data-feather="map-pin" class=" text-white ml-2 w-[18px] hover:animate-bounce"></i></a>
+                    </p>
 
-                    <p class="text-sm py-1 flex items-center">Jakarta : jl Sultan Hasanudin No.20 Daerah Khusus IbuKota Jakarta<a href=""><i data-feather="map-pin" class=" text-white ml-2 w-[18px] hover:animate-bounce"></i></a></p>
+                    <p class="text-sm py-1 flex items-center">Jakarta : jl Sultan Hasanudin No.20 Daerah Khusus IbuKota
+                        Jakarta<a href=""><i data-feather="map-pin"
+                                class=" text-white ml-2 w-[18px] hover:animate-bounce"></i></a></p>
 
-                    <p class="text-sm py-1 flex items-center">Bandung : Jl. Antapani No.1<a href="" "><i data-feather="map-pin" class=" text-white ml-2 w-[18px] hover:animate-bounce"></i></a></p>
+                    <p class="text-sm py-1 flex items-center">Bandung : Jl. Antapani No.1<a href="" "><i data-feather="
+                            map-pin" class=" text-white ml-2 w-[18px] hover:animate-bounce"></i></a></p>
                 </div>
             </div>
-                <!-- ------------------------------------------------------ -->
             <div class="2xl:block text-white 2xl:mx-28  2xl:pt-12">
                 <div class="poppins text-base pt-10 2xl:p-0 ">
                     <h3 class="text-lg poppins-medium">Booking:</h3>
@@ -341,7 +358,7 @@
                     <p class="text-sm py-1">Coffeein. Jakarta<span class="hover:underline">+6285723944658</span></p>
                 </div>
             </div>
-            <!-- ---------------------------------------------- -->
+
             <div class="wrap2 text-white ml-32 2xl:flex 2xl:mx-28 2xl:pt-8 ">
                 <ul class="pt-3 ">
                     <h3 class="text-xl poppins-medium">INFO</h3>
@@ -369,7 +386,7 @@
 
 
 
-    <!-- end -->
+
     <section class="pb-2 lg:py-2">
         <div class="">
             <p class="text-center text-slate-300
@@ -380,7 +397,6 @@
 
 
 
-    <!-- script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();

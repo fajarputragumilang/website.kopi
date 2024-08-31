@@ -119,5 +119,5 @@ tombol3.addEventListener('click', function () {
 
 // menu
 hamburger.addEventListener('click', function () {
-    navbar.classList.toggle('hidden')
+    navbar.classList.toggle('hidden');
 });
